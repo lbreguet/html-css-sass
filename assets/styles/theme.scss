@@ -1,0 +1,19 @@
+@import 'typography';
+@import 'colors';
+
+body {
+  background: $grey;
+  color: $black;
+  font-size: $body-font-size;
+  line-height: 1.6;
+  margin: 40px auto;
+  max-width: 650px;
+  padding: 0 10px;
+}
+
+.quote {
+  background-color: $yellow;
+  border-radius: 15px;
+  font-size: 30px;
+  padding: 5px;
+}

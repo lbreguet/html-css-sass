@@ -1,0 +1,20 @@
+@import 'colors';
+@import 'typography';
+
+/// Slightly lighten a color
+/// @access public
+/// @param {Color} $color - color to tint
+/// @param {Number} $percentage - percentage of `$color` in returned color
+/// @return {Color}
+@function tint($grey, $percentage) {
+  @return mix(white, $grey, $percentage);
+}
+
+/// Slightly darken a color
+/// @access public
+/// @param {Color} $color - color to shade
+/// @param {Number} $percentage - percentage of `$color` in returned color
+/// @return {Color}
+@function shade($yellow, $percentage) {
+  @return mix(black, $yellow, $percentage);
+}

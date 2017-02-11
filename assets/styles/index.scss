@@ -1,15 +1,18 @@
-$icon-font-path: '~bootstrap-sass/assets/fonts/bootstrap/';
-@import '~bootstrap-sass/assets/stylesheets/bootstrap';
+// $icon-font-path: '~bootstrap-sass/assets/fonts/bootstrap/';
+// @import '~bootstrap-sass/assets/stylesheets/bootstrap';
+@import 'typography';
+@import 'breakpoints';
+@import 'theme';
+@import 'functions';
+// $background-color: #fefefe;
+// $font-color: #4e4e4e;
 
-$background-color: #fefefe;
-$font-color: #4e4e4e;
+// body {
+//   background-color: $background-color;
+//   color: $font-color;
+// };
 
-body {
-background-color: $background-color;
-color: $font-color;
-};
-
-.quote {
-background-color: #e5e5e5; // gray
-font-size: 30px;
-};
+// .quote {
+//   background-color: #e5e5e5; // gray
+//   font-size: 30px;
+// };
